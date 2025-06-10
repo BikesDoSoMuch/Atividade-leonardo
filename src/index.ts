@@ -1,7 +1,7 @@
 // src/index.ts
 import express from 'express';
 import cors from 'cors';
-import usuarioRoutes from './routes/usuario.routes';
+import usuarioRoutes from './routes/Usuarios.routes';
 
 const app = express();
 app.use(express.json());
